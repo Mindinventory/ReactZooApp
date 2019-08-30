@@ -1,0 +1,19 @@
+.home-wrapper {
+
+  header.intro {
+    text-align: center;
+    padding: 90px 60px;
+    opacity: 0;
+    animation: fadein 500ms ease-in-out 600ms;
+    animation-fill-mode: forwards;
+    h1 {
+      font-family: "Chewy", cursive;
+      font-size: 4.8rem;
+      color: #333333;
+    }
+    p{
+      font-size: 1.8rem;
+      color: #666666;
+    }
+  }
+}
