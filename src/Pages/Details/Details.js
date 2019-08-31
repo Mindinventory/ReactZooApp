@@ -4,31 +4,33 @@ import { Context } from "../../context";
 import Back from "../../assets/icons/left-arrow.svg";
 
 class Details extends React.Component {
-  componentDidMount() {
-    this.context.handleDetailPage(this.props.match.params.itemId);
-    this.setStyles();
-    window.scrollTo(0, 0);
+  state = {
+    styles: {
+      backgroundColor: this.context.itemForDetailPage.bg_color,
+      transform: `translate(${this.context.cords.x}px, ${this.context.cords.y}px)`,
+      maxWidth: `${this.context.cords.width}px`,
+      height: `${this.context.cords.height}px`,
+      borderRadius: `30px`,
+    }
   }
-  setStyles = () => {
-    const elementStyle = document.getElementById("img-wrapper").style;
-    elementStyle.transform = `translate(${this.context.cords.x}px, ${this.context.cords.y}px)`;
-    elementStyle.maxWidth = `${this.context.cords.width}px`;
-    elementStyle.height = `${this.context.cords.height}px`;
-    elementStyle.borderRadius = `30px`;
 
-    setTimeout(() => {
-      elementStyle.transform = ``;
-      elementStyle.maxWidth = ``;
-      elementStyle.height = ``;
-      elementStyle.borderRadius = ``;
-    }, 0);
-  };
+  componentDidMount() {
+    window.scrollTo(0, 0);
+    const styles = {
+      backgroundColor: this.context.itemForDetailPage.bg_color,
+      transform: ``,
+      maxWidth: ``,
+      height: ``,
+      borderRadius: ``,
+    }
+    setTimeout(() => this.setState({ styles }))
+  }
+
   render() {
     const { itemForDetailPage } = this.context;
     const {
       title,
       img_url,
-      bg_color,
       description,
       lifespan,
       speed,
@@ -39,7 +41,7 @@ class Details extends React.Component {
       <div className="details-wrapper">
         <div
           className="img-wrapper"
-          style={{ backgroundColor: bg_color }}
+          style={this.state.styles}
           id={"img-wrapper"}
         >
           <img src={img_url} alt={title} />

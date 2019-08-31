@@ -10,28 +10,21 @@ class Provider extends React.Component {
     itemForDetailPage: {},
     cords: {},
     windowScrollPosition: 0
-  };
-  getSelectedItem = id => {
-    return this.state.list.find(item => item.id === id);
-  };
-  handleDetailPage = id => {
-    const selectedItem = this.getSelectedItem(id);
-    this.setState({
-      itemForDetailPage: selectedItem
-    });
-  };
+  }
+
   getCords = id => {
     this.setState({
       cords: document.getElementById(id).getBoundingClientRect(),
-      windowScrollPosition: window.scrollY
-    });
-  };
+      windowScrollPosition: window.scrollY,
+      itemForDetailPage: this.state.list.find(item => item.id === id)
+    })
+  }
+
   render() {
     return (
       <Context.Provider
         value={{
           ...this.state,
-          handleDetailPage: this.handleDetailPage,
           getCords: this.getCords
         }}
       >
