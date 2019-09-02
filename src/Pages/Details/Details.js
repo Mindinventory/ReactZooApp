@@ -10,20 +10,20 @@ class Details extends React.Component {
       transform: `translate(${this.context.cords.x}px, ${this.context.cords.y}px)`,
       maxWidth: `${this.context.cords.width}px`,
       height: `${this.context.cords.height}px`,
-      borderRadius: `30px`,
+      borderRadius: "30px"
     }
-  }
-
+  };
   componentDidMount() {
     window.scrollTo(0, 0);
-    const styles = {
-      backgroundColor: this.context.itemForDetailPage.bg_color,
-      transform: ``,
-      maxWidth: ``,
-      height: ``,
-      borderRadius: ``,
-    }
-    setTimeout(() => this.setState({ styles }))
+    this.context.getDetailPageItem(this.props.match.params.itemId);
+    setTimeout(() => {
+      const styles = {
+        backgroundColor: this.context.itemForDetailPage.bg_color
+      };
+      this.setState({ styles });
+    });
+
+    console.log(this.props);
   }
 
   render() {

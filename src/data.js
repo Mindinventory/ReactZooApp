@@ -8,7 +8,7 @@ export const list = [
     id: "lion",
     title: "Lion",
     img_url: "../images/lion.png",
-    bg_color: "#F6A74B",
+    bg_color: "#ffa21c",
     description:
       "The lion is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; male lions have a prominent mane, which is the most recognisable feature of the species.",
     lifespan: "10 – 14 years",
@@ -26,7 +26,7 @@ export const list = [
     id: "elephant",
     title: "Elephant",
     img_url: "../images/elephant.png",
-    bg_color: "#CFE2EA",
+    bg_color: "#d2e8f2",
     description:
       "Elephants, the largest existing land animals, are mammals of the family Elephantidae. Three species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant. Elephantidae is the only surviving family of the order Proboscidea; extinct members include the mastodons.",
     lifespan: "48 - 70 years",
@@ -44,7 +44,7 @@ export const list = [
     id: "owl",
     title: "Owl",
     img_url: "../images/owl.png",
-    bg_color: "#D0C8A8",
+    bg_color: "#d6cc9e",
     description:
       "Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
     lifespan: "4 years",
@@ -61,7 +61,7 @@ export const list = [
     id: "tiger",
     title: "Tiger",
     img_url: "../images/tiger.png",
-    bg_color: "#CC5A2B",
+    bg_color: "#d64e00",
     description:
       "The tiger is the largest species among the Felidae and classified in the genus Panthera. It is most recognisable for its dark vertical stripes on reddish-orange fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar.",
     lifespan: "16 – 18 years",
@@ -79,7 +79,7 @@ export const list = [
     id: "bear",
     title: "Bear",
     img_url: "../images/bear.png",
-    bg_color: "#FFDDB9",
+    bg_color: "#ffe0b5",
     description:
       "Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere.",
     lifespan: "20 years",
@@ -97,7 +97,7 @@ export const list = [
     id: "rabbit",
     title: "Rabbit",
     img_url: "../images/bunny.png",
-    bg_color: "#A1C1B7",
+    bg_color: "#9bc6ba",
     description:
       "Rabbits are small mammals in the family Leporidae of the order Lagomorpha. Oryctolagus cuniculus includes the European rabbit species and its descendants, the world's 305 breeds of domestic rabbit. Sylvilagus includes 13 wild rabbit species, among them the 7 types of cottontail.",
     lifespan: "1 - 2 years",
@@ -114,7 +114,7 @@ export const list = [
     id: "hippo",
     title: "Hippopotamus",
     img_url: "../images/hippo.png",
-    bg_color: "#DEC6CD",
+    bg_color: "#e6c5d0",
     description:
       'The common hippopotamus, or hippo, is a large, mostly herbivorous, semiaquatic mammal and ungulate native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus. The name comes from the ancient Greek for "river horse".',
     lifespan: "40 - 50 years",
@@ -131,7 +131,7 @@ export const list = [
     id: "giraffe",
     title: "Giraffe",
     img_url: "../images/giraffe.png",
-    bg_color: "#FFDE96",
+    bg_color: "#ffe083",
     description:
       "The giraffe is an African even-toed ungulate mammal, the tallest living terrestrial animal and the largest ruminant. It is traditionally considered to be one species, Giraffa camelopardalis, with nine subspecies.",
     lifespan: "25 years",
