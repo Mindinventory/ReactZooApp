@@ -1,4 +1,4 @@
-![Transition preview](https://octodex.github.com/images/yaktocat.png)
+![Transition preview](https://zooapp.mindinventory.net/preview.gif)
 
 # ZooApp
 This is a web experiment for native-like animations/transitions between 'current page leaving the DOM' and 'new page entering the DOM’ using ReactJs and CSS.
