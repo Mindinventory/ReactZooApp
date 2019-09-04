@@ -9,15 +9,15 @@ The interesting thing to be noticed in this demo is that the leaving page also l
 ### Preview
 ![Transition preview](https://zooapp.mindinventory.net/preview.gif)
 
+## See live
+https://zooapp.mindinventory.net/
+
 ## Technologies
 ###### Development
 ReactJs, HTML, CSS
 
 ###### State management
 ReactJs Context API
-
-## See live
-https://zooapp.mindinventory.net/
 
 ---
 First of all, install all the dependencies
