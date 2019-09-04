@@ -23,3 +23,13 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+---
+Feel free to share your views on this.
+
+Have an awesome idea? We will provide a quick analysis and free proposal for it. Don’t worry, it is secure and confidential.
+
+Contact us on 
+http://www.mindinventory.com/inquiry.php 
+or 
+sales@mindinventory.com
