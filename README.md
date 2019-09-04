@@ -6,7 +6,7 @@ When an item is selected from the listing page, the common elements among the li
 
 The interesting thing to be noticed in this demo is that the leaving page also leaves the DOM rather than staying in it.
 
-## Preview
+### Preview
 ![Transition preview](https://zooapp.mindinventory.net/preview.gif)
 
 ## Technologies
