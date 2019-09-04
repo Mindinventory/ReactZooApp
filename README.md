@@ -1,6 +1,7 @@
+# ZooApp
+
 ![Transition preview](https://zooapp.mindinventory.net/preview.gif)
 
-# ZooApp
 This is a web experiment for native-like animations/transitions between 'current page leaving the DOM' and 'new page entering the DOM’ using ReactJs and CSS.
 
 When an item is selected from the listing page, the common elements among the listing page and the detail page for the selected item (image and its background in our case) are animated from their current positions on listing page to their destination positions on the detail page. The reverse also works the same way. 
@@ -13,6 +14,9 @@ ReactJs, HTML, CSS
 
 ###### State management
 ReactJs Context API
+
+## See live
+https://zooapp.mindinventory.net/
 
 ---
 First of all, install all the dependencies
