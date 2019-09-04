@@ -22,8 +22,6 @@ class Details extends React.Component {
       };
       this.setState({ styles });
     });
-
-    console.log(this.props);
   }
 
   render() {
