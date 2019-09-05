@@ -14,10 +14,13 @@ https://zooapp.mindinventory.net/
 
 ## Technologies
 ###### Development
-ReactJs, HTML, CSS
+ReactJs
 
 ###### State management
 ReactJs Context API
+
+###### Transitions
+CSS
 
 ---
 First of all, install all the packages.
