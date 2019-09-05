@@ -13,7 +13,7 @@ The interesting thing to be noticed in this demo is that the leaving page also l
 #### iPad view
 ![Transition preview](https://zooapp.mindinventory.net/ipad-preview.gif)
 
-#### iPad view
+#### Mobile view
 ![Transition preview](https://zooapp.mindinventory.net/mobile-preview.gif)
 
 ## See live
