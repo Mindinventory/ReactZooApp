@@ -12,13 +12,13 @@ The interesting thing to be noticed in this demo is that the leaving page also l
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| ![Transition preview](https://zooapp.mindinventory.net/ipad-preview.gif)  | ![Transition preview](https://zooapp.mindinventory.net/mobile-preview.gif)  |
 
 #### iPad view
-![Transition preview](https://zooapp.mindinventory.net/ipad-preview.gif)
+
 
 #### Mobile view
-![Transition preview](https://zooapp.mindinventory.net/mobile-preview.gif)
+
 
 ## See live
 https://zooapp.mindinventory.net/
