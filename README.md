@@ -20,10 +20,10 @@ ReactJs, HTML, CSS
 ReactJs Context API
 
 ---
-First of all, install all the packages
+First of all, install all the packages.
 ### `npm install`
 
-In the project directory, you can run:
+In the project directory, you can run.
 ### `npm start`
 
 Runs the app in the development mode.<br>
