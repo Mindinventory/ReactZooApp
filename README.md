@@ -10,14 +10,14 @@ The interesting thing to be noticed in this demo is that the leaving page also l
 #### Desktop view
 ![Transition preview](https://zooapp.mindinventory.net/preview.gif)
 
-| First Header  | Second Header |
+| #### iPad view  | #### Mobile view |
 | ------------- | ------------- |
 | ![Transition preview](https://zooapp.mindinventory.net/ipad-preview.gif)  | ![Transition preview](https://zooapp.mindinventory.net/mobile-preview.gif)  |
 
-#### iPad view
 
 
-#### Mobile view
+
+
 
 
 ## See live
